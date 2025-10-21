@@ -24,6 +24,6 @@ Dibangun menggunakan **HTML, CSS, JavaScript, dan Bootstrap 5** agar tampil mode
 
 ## 🎥 Video Dokumentasi
 Lihat penjelasan lengkap di video berikut:  
-🔗 [Tonton di YouTube](https://youtube.com/your-video-link)
+🔗 [Tonton di YouTube]([https://youtube.com/your-video-link](https://youtu.be/9lMFHmJt2o4))
 
 ---
