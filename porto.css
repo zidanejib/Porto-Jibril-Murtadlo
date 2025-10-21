@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #222;
+    background: #fff;
+}
+
+.brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 16px 0;
+}
+
+.header-inner .nav-links a {
+    color: #222;
+    margin-left: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-inner .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero-wrapper .hero-photo {
+    min-height: 520px;
+    overflow: hidden;
+}
+
+.hero-wrapper .img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-content {
+    padding: 40px;
+}
+
+.content-inner {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efe598;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.avatar img {
+    width: 86%;
+    height: 86%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.work-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
+.site-footer {
+    color: #666;
+    background: transparent;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+body.dark-theme {
+    background: #0f0f10;
+    color: #ddd;
+}
+
+body.dark-theme .site-header {
+    background: #0f0f10;
+    border-bottom-color: rgba(255, 255, 255, 0.06);
+}
+
+body.dark-theme .header-inner .nav-links a {
+    color: #ddd;
+}
+
+body.dark-theme .avatar {
+    background: #2b2b2b;
+}

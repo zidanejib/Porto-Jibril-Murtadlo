@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Porto - Home</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="porto.css">
+</head>
+
+<body>
+    <header class="site-header container-fluid">
+        <div class="header-inner container d-flex align-items-center justify-content-between">
+            <div class="brand">Jibril Murtadlo</div>
+            <nav class="nav-links d-flex align-items-center">
+                <a href="porto-home.html">Home</a>
+                <a href="porto-about.html">About</a>
+                <a href="porto-contact.html">Contact</a>
+                <button id="themeToggle" class="btn btn-sm btn-outline-secondary ms-3">Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container hero-wrapper my-5">  
+        <div class="row g-0 align-items-center">
+            <div class="col-md-7 hero-photo">
+                <img src="/Project 1/images/Alun-alun sby.jpg" alt="featured" class="img-cover">
+            </div>
+            <div class="col-md-5 hero-content d-flex align-items-center">
+                <div class="content-inner text-center text-md-start w-100">
+                    <div class="avatar mx-auto mx-md-0 mb-3">
+                        <img src="/Project 1/images/Foto profil.jpg" alt="avatar">
+                    </div>
+                    <h2 class="hero-title">Mahasiswa Teknik Informatika — Penggemar Fotografi</h2>
+                    <p class="lead hero-text">
+                        Mahasiswa Teknik Informatika di Universitas Negeri Surabaya. Tertarik pada pengembangan web, desain UI/UX, dan fotografi sebagai hobi.</p>
+                    <p class="hero-sub small text-muted">
+                        Keahlian: JavaScript, Python, Web (HTML/CSS), fotografi & editing.
+                    </p>
+                    <button id="toggleBio" class="btn btn-outline-dark mt-3">Tampilkan Bio</button>
+                    <div id="bio" class="mt-3 text-muted" style="display:none;">
+                        <p>Mahasiswa Informatika yang antusias mempelajari pengembangan web, UI/UX, dan algoritma. Aktif mengasah kreativitas melalui fotografi, videografi, dan editing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container my-5">
+        <h3 class="text-center mb-4">Sekilas proyek</h3>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card work-card">
+                    <img src="/Project 1/images/MengTumbas.png" class="card-img-top" alt="project-web">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Web — E-Commerce</h5>
+                        <p class="card-text">Situs e-commerce yang dibuat dengan html/css/js dan django pada Python.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card work-card">
+                    <img src="/Project 1/images/CV css.png" class="card-img-top" alt="project-cv">
+                    <div class="card-body">
+                        <h5 class="card-title">Mini Project — CV kreatif</h5>
+                        <p class="card-text">CV sederhana menggunakan HTML dan CSS dasar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card work-card">
+                    <img src="/Project 1/images/Penjual.jpg" class="card-img-top" alt="photo-sample">
+                    <div class="card-body">
+                        <h5 class="card-title">Fotografi — Street & Makanan</h5>
+                        <p class="card-text">Koleksi foto: street photography dan fotografi kuliner.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer text-center py-4">
+        &copy; 2025 Muhammad Mazidannur Jibril Murtadlo.
+    </footer>
+
+    <script src="porto.js"></script>
+</body>
+
+</html>
